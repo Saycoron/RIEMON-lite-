@@ -1,0 +1,18 @@
+BC:
+Auto riemon Cfg
+Notificaciones Cfg
+subir a tenant app.
+Agregar validaciones httpStatusCode de ws
+
+NODE:
+Fowarding de puertos para acceder al node
+authentificacion node
+Interaccion con arduino :)
+PASAR DE COMMOND A ECMA
+
+Arduino:
+Colocar sensores
+Calibrar sensores
+Comprar bombas
+Comprar lampara
+Macetas

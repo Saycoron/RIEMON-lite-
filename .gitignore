@@ -1,0 +1,12 @@
+*/*.app
+*/permissionsAnalyzer.json
+*/.vscode/launch.json
+*/.alcache/*
+*/.alpackages/*.app
+*/.altemplates/*
+*/.vscode/rad.json
+*/Translations/*.xlf
+
+Node/node_modules/*
+
+

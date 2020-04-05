@@ -1,0 +1,11 @@
+{
+    "name": "RieRuleset",
+    "description": "Personalizacion del analizador para que excluya warning AA0214",
+    "rules": [
+        {
+            "id": "AA0214",
+            "action": "None",
+            "justification": "No queremos ver warning AA0214"
+        }
+    ]
+}

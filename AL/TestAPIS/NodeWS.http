@@ -1,0 +1,14 @@
+### AuthBasica
+#@ServerLocal = http://{{$processEnv RIEMON_NODE_SERVER}}:{{$processEnv RIEMON_NODE_PORT}}
+@ServerLocal = http://127.0.0.1:3000
+@User = {{$processEnv RIEMON_NODE_USER}}
+@WSPass = {{$processEnv RIEMON_NODE_PASS}}
+
+###-------------------------------- POST
+POST {{ServerLocal}}
+#Authorization: Basic {{User}} {{WSPass}}
+content-type: application/json
+
+{
+    "accion": "Regar" ,"maceta": "1"
+}
